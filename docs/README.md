@@ -1,3 +1,3 @@
-# 学习笔记
+# 简介
 
 > An awesome project.
