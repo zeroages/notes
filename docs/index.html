@@ -24,7 +24,7 @@
       // 项目名称
       name: 'Blog',
       // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
-      repo: 'https://github.com/zeroages/notes',
+      // repo: 'https://github.com/zeroages/notes',
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
       loadSidebar: true,
       themeColor: '#1e9fff',
@@ -50,8 +50,8 @@
         customOptions: {}
       },
       pagination: {
-        previousText: '上一章节',
-        nextText: '下一章节',
+        previousText: '上一页',
+        nextText: '下一页',
       },
       /*搜索相关设置*/
       search: {
@@ -99,18 +99,18 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <!-- gitalk支持-->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script> -->
-  <!-- <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <script>
     const gitalk = new Gitalk({
-      clientID: 'Github Application Client ID',
-      clientSecret: 'Github Application Client Secret',
-      repo: 'Github repo',
-      owner: 'Github repo owner',
-      admin: ['Github repo collaborators, only these guys can initialize github issues'],
-      // facebook-like distraction free mode
+      clientID: 'Ov23liNSJvsDw5gUwDmm',
+      clientSecret: 'f5304948979f9296c5cf4cd66ee258a935469c7e',
+      repo: 'https://github.com/zeroages/notes',
+      owner: 'zeroages',
+      admin: ['zeroages'],
+      id: location.pathname, 
       distractionFreeMode: false
     })
   </script>
