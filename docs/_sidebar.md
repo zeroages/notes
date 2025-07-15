@@ -1,4 +1,4 @@
 - 简介
--- [文档介绍和快速链接](README.md)
+-- [文档介绍](README.md)
 - java笔记
 -- [设计模式](blog/design_mode/c1.md)
