@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   <!-- 默认主题 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/prism-themes@1/themes/prism-one-light.min.css" />
   </meta>
 </head>
 
@@ -22,7 +23,7 @@
   <script>
     window.$docsify = {
       // 项目名称
-      name: 'Blog',
+      name: 'camellia-blog',
       // 仓库地址，点击右上角的Github章鱼猫头像会跳转到此地址
       // repo: 'https://github.com/zeroages/notes',
       // 侧边栏支持，默认加载的是项目根目录下的_sidebar.md文件
@@ -98,6 +99,19 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-pagination@latest/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-git.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-jsx.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-rust.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-swift.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-typescript.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
   <!-- gitalk支持-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 
@@ -110,7 +124,7 @@
       repo: 'notes',
       owner: 'zeroages',
       admin: ['zeroages'],
-      id: location.pathname, 
+      id: location.pathname,
       distractionFreeMode: false
     })
   </script>

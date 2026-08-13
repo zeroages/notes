@@ -1,4 +1,20 @@
 - 简介
 -- [文档介绍](README.md)
-- java笔记
--- [设计模式](blog/design_mode/c1.md)
+- java基础
+-- [设计模式](blog/java/basics/designmode.md)
+-- [lambada](blog/java/basics/lambada.md)
+- spring
+-- [spring事务](blog/java/spring/transactional.md)
+-- [SpringSecurity](blog/java/spring/SpringSecurity.md)
+- 中间件
+-- [redis](blog/java/middleware/redis.md)
+-- [mysql](blog/java/middleware/mysql.md)
+-- [rabbitMQ](blog/java/middleware/rabbitMQ.md)
+-- [mqtt](blog/java/middleware/mqtt.md)
+-- [ffmpeg](blog/java/middleware/ffmpeg.md)
+- linux
+-- [常用命令](blog/java/linux/commoncommands.md) 
+-- [ssl证书](blog/java/linux/ssl.md)    
+- 面试
+-- [常见场景题](blog/java/interview/scene.md)
+
